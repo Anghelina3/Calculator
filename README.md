@@ -10,18 +10,23 @@
 ## Запуск
 1. Убедитесь, что у вас установлена Java (версия 11+).
 2. Скачайте проект:
-   ```bash
-   git clone https://github.com/ваш-репозиторий.git
+```
+git clone https://github.com/Anghelina3/Calculator.git
+```
+
 Соберите и запустите:
 
-bash
+```
 javac src/SmartCalculator/*.java
 java src/SmartCalculator/Calculator
+```
 📝 Пример использования
-java
+```
 Calculator calc = new Calculator();
 double result = calc.calculate("3 + 5 * 2");  // Результат: 13.0
-🛠 Технологии
+```
+### Технологии
+
 Java 11
 
 Алгоритм сортировочной станции (Shunting Yard)
